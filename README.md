@@ -8,9 +8,11 @@ ___  ____ ____ _  _ _    _ ____ ___
 |__/ |__| |___ |__| |___ | ___] |
 ```
 
+A language for Readme.
+
 ## Table of Contents ##
 
-1. [CLI: Using the Command Line Interface](#using-the-command-line-interface)
+1. [Version: Language Version](#language-version)
 2. [Intro: What Problem Does Doculisp Solve?](#what-problem-does-doculisp-solve)
 3. [Language: Basic Structure](#basic-structure)
 4. [Language: Doculisp Master Block](#doculisp-master-block)
@@ -21,36 +23,9 @@ ___  ____ ____ _  _ _    _ ____ ___
 9. [Language: Key Atoms by Depth](#key-atoms-by-depth)
 10. [Recognition: Contributors ✨](#contributors-)
 
-## Using the Command Line Interface ##
+## Language Version ##
 
-### To Install Doculisp ###
-
-Run the following command: `npm i -g doculisp`
-
-### Running the Doculisp compiler ###
-
-If you run doculisp with the help option : `doculisp --help` you will see the following:
-
-```
-___  ____ ____ _  _ _    _ ____ ___
-|  \ |  | |    |  | |    | [__  |__]
-|__/ |__| |___ |__| |___ | ___] |
-
-                     Version: N.N.N
-
-Usage: doculisp [options]
-
-A compiler for markdown
-
-Options:
-  -V, --version               output the version number
-  -s, --source <source_path>  the source file to compile
-  -d, --output <output_path>  the output document path for the compiled markdown
-  -t, --test                  runs the compiler without generating the output file.
-  -h, --help                  display help for command
-```
-
-The source and destination options are required.
+Doculisp version 0.0.1
 
 ## What Problem Does Doculisp Solve? ##
 

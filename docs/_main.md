@@ -3,7 +3,7 @@
     (section-meta
         (title Doculisp)
         (include
-            (CLI ./cli.md)
+            (Version ./version.md)
             (Intro ./why.md)
             (Language ./structure.md)
             (Language ./doculisp.md)
@@ -23,6 +23,7 @@ ___  ____ ____ _  _ _    _ ____ ___
 |  \ |  | |    |  | |    | [__  |__]
 |__/ |__| |___ |__| |___ | ___] |
 ```
+A language for Readme.
 
 <!-- (dl (# Table of Contents)) -->
 <!-- (dl(content (toc numbered-labeled))) -->
