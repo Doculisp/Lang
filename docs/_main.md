@@ -7,7 +7,7 @@
             (Intro ./why.md)
             (Language ./structure.md)
             (Language ./doculisp.md)
-            (Language ./section-meta.md)
+            (Language ./section-meta/_main.md)
             (Language ./content.md)
             (Language ./headings.md)
             (Language ./comment.md)
