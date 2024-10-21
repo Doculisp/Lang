@@ -12,6 +12,7 @@
             (Language ./headings.md)
             (Language ./comment.md)
             (Language ./keywords.md)
+            (Structure ./dlisp.md)
             (Recognition ./contributors.md)
         )
     )

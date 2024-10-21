@@ -21,11 +21,12 @@ A language for Readme.
 7. [Language: Dynamic Headings](#dynamic-headings)
 8. [Language: Comment Block](#comment-block)
 9. [Language: Key Atoms by Depth](#key-atoms-by-depth)
-10. [Recognition: Contributors ✨](#contributors-)
+10. [Structure: ".dlisp" files](#dlisp-files)
+11. [Recognition: Contributors ✨](#contributors-)
 
 ## Language Version ##
 
-Doculisp version 0.0.1
+Doculisp version 0.1.0
 
 ## What Problem Does Doculisp Solve? ##
 
@@ -341,6 +342,50 @@ Here is a list of all the key atoms by depth:
   * `#` text
   * `*`
 * `*`
+
+## ".dlisp" files ##
+
+If you have a file that contains only Doculisp code blocks without any markdown you can simplify that file. By changing the extension from `.md` to `.dlisp` you can remove the html comments and the opening `(dl` to contain raw Doculisp code.
+
+### Example ###
+
+```markdown
+<!--
+(dl
+    (section-meta
+        (title Doculisp)
+        (include
+            (Version ./version.md)
+            (Intro ./why.md)
+            (Language ./structure.md)
+            (Recognition ./contributors.md)
+        )
+    )
+)
+-->
+
+<!-- (dl (# Table of Contents)) -->
+
+<!-- (dl (content (toc))) -->
+```
+
+Can be simplified to:
+
+```doculisp
+(section-meta
+    (title Doculisp)
+    (include
+        (Version ./version.md)
+        (Intro ./why.md)
+        (Language ./structure.md)
+        (Recognition ./contributors.md)
+    )
+)
+
+(# Table of contents)
+
+(content (toc))
+```
 
 ## Contributors ✨ ##
 
