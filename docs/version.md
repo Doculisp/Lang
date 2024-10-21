@@ -6,4 +6,4 @@
 )
 -->
 
-Doculisp version 0.1.0
+Doculisp version 0.2.0

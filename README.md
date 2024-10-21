@@ -26,7 +26,7 @@ A language for Readme.
 
 ## Language Version ##
 
-Doculisp version 0.1.0
+Doculisp version 0.2.0
 
 ## What Problem Does Doculisp Solve? ##
 
@@ -105,6 +105,23 @@ Example
         (section ./doculisp.md)
     )
 )
+```
+
+### Default Target File ###
+
+You can set a default target or output file name (with path) from within the `section-meta` block. This is done with the `target` command.
+
+Example:
+
+```markdown
+<!--
+(dl
+    (section-meta
+        (title An example)
+        (target ../README.md)
+    )
+)
+-->
 ```
 
 ### Title (required) ###
@@ -335,7 +352,8 @@ Here is a list of all the key atoms by depth:
       * `*`
     * `include`
       * name path
-      * `*`
+      * `*`'
+    * `target` file name
     * `*`
   * `content`
     * `toc` bullet style
