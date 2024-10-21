@@ -3,6 +3,7 @@
     (section-meta
         (title Section Meta Block)
         (include
+            (Section ./target.md)
             (Section ./title.md)
             (Section ./ref-link.md)
             (Section ./subtitle.md)
