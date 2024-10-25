@@ -1,4 +1,8 @@
-<!-- Generated Document do not edit! -->
+<!-- GENERATED DOCUMENT DO NOT EDIT! -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- Compiled with doculisp (version 2.2.0) https://www.npmjs.com/package/doculisp -->
 
 # Doculisp #
 
@@ -201,13 +205,36 @@ Comment block breaks this rule slightly. The astrict character is a special char
 
 ## Content Block ##
 
-The content block signifies where to build the document from the included documents. This block has only one optional subblock.
+The content block signifies where to insert the compiled included documents. This block has only one optional subblock.
 
 ### Table of Contents ###
 
 The only subblock to the content block is the table of contents. This will cause a linked table of contents to appear for the section at its location.
 
-The structure of the table of contents is `(toc)` there is an optional parameter that can have one of the following values, `labeled` is the default:
+#### Simple Usage ####
+
+The simple usage of the table of contents is `(toc)` may have an optional bullet style as a parameter. The default style is `labeled`.
+
+```doculisp
+(content (toc numbered))
+```
+
+#### Complex Usage ####
+
+The complex usage of table of contents allows you to specify an optional `label` that will appear as a heading directly above the table of contents. You can all so specify an optional `style` which will be a bullet style.
+
+```doculisp
+(content
+    (label Table of Contents)
+    (style numbered)
+)
+```
+
+The default label will be `Table of Contents`, and the default style is `labeled`
+
+### Bullet Style ###
+
+The bullet style argument can have one of the following values:
 
 * no-table
 * unlabeled
@@ -216,16 +243,6 @@ The structure of the table of contents is `(toc)` there is an optional parameter
 * numbered-labeled
 * bulleted
 * bulleted-labeled
-
-Examples
-
-```doculisp
-(contents (toc))
-```
-
-```doculisp
-(contents (toc bulleted-labeled))
-```
 
 Any of the options with `labled` on it will use the name of the subsection.
 
@@ -357,6 +374,8 @@ Here is a list of all the key atoms by depth:
     * `*`
   * `content`
     * `toc` bullet style
+       * `label` label text
+       * `style` bullet style
   * `#` text
   * `*`
 * `*`
@@ -421,4 +440,6 @@ I want to give a special thanks to my friend [Chris Stead](https://github.com/cm
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
-<!-- Generated Document do not edit! -->
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+<!-- GENERATED DOCUMENT DO NOT EDIT! -->
