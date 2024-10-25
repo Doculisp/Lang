@@ -2,7 +2,7 @@
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 
-<!-- Compiled with doculisp (version 2.2.0) https://www.npmjs.com/package/doculisp -->
+<!-- Compiled with doculisp https://www.npmjs.com/package/doculisp -->
 
 # Doculisp #
 
@@ -369,7 +369,7 @@ Here is a list of all the key atoms by depth:
       * `*`
     * `include`
       * name path
-      * `*`'
+      * `*`
     * `target` file name
     * `*`
   * `content`
