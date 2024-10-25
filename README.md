@@ -230,7 +230,7 @@ The complex usage of table of contents allows you to specify an optional `label`
 )
 ```
 
-The default label will be `Table of Contents`, and the default style is `labeled`
+The default label will be not to include a label, and the default style is `labeled`
 
 ### Bullet Style ###
 
