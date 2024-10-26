@@ -221,6 +221,18 @@ This will create a subsection called `sub section` that is built using the file 
 
 This will create a subsection called `section` that is built using the file `./two.md`.
 
+### Author ###
+
+Author is an optional block in the section meta that puts the author's name in the comments at the top and bottom of the document. This block can be included multiple times and each will have a separate comment line.
+
+```doculisp
+(section-meta
+    (title An example of the Author Block)
+    (author Jason Kerney)
+    (author Chris Stead)
+)
+```
+
 ### Exception to the Rule ###
 
 Comment block breaks this rule slightly. The astrict character is a special character that cause all atoms that start with to be treated as a comment, and all parameters and sub blocks to be ignored.
