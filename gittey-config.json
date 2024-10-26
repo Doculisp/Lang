@@ -18,6 +18,10 @@
         {
             "name": "push",
             "command": "gittey build && gittey commit && git push && git push --tags"
+        },
+        {
+            "name": "docs",
+            "command": "gittey build"
         }
     ],
     "collaborators": []

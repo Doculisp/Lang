@@ -1,10 +1,4 @@
-<!--
-(dl
-    (section-meta
-        (title Title \(required\))
-    )
-)
--->
+<!-- (dl (section-meta Title \(required\))) -->
 
 This is required, however it has two ways of being provided. The simple way, as a parameter to `section-meta`, or as a block if other blocks are also provided.
 

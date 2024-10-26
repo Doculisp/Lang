@@ -16,17 +16,17 @@ A language for Readme.
 
 ## Table of Contents ##
 
-1. [Version: Language Version](#language-version)
-2. [Intro: What Problem Does Doculisp Solve?](#what-problem-does-doculisp-solve)
-3. [Language: Basic Structure](#basic-structure)
-4. [Language: Doculisp Master Block](#doculisp-master-block)
-5. [Language: Section Meta Block](#section-meta-block)
-6. [Language: Content Block](#content-block)
-7. [Language: Dynamic Headings](#dynamic-headings)
-8. [Language: Comment Block](#comment-block)
-9. [Language: Key Atoms by Depth](#key-atoms-by-depth)
-10. [Structure: ".dlisp" files](#dlisp-files)
-11. [Recognition: Contributors ✨](#contributors-)
+1. Version: [Language Version](#language-version)
+2. Intro: [What Problem Does Doculisp Solve?](#what-problem-does-doculisp-solve)
+3. Language: [Basic Structure](#basic-structure)
+4. Language: [Doculisp Master Block](#doculisp-master-block)
+5. Language: [Section Meta Block](#section-meta-block)
+6. Language: [Content Block](#content-block)
+7. Language: [Dynamic Headings](#dynamic-headings)
+8. Language: [Comment Block](#comment-block)
+9. Language: [Key Atoms by Depth](#key-atoms-by-depth)
+10. Structure: [".dlisp" files](#dlisp-files)
+11. Recognition: [Contributors ✨](#contributors-)
 
 ## Language Version ##
 

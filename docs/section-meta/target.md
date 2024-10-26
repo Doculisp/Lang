@@ -1,10 +1,4 @@
-<!--
-(dl
-    (section-meta 
-        (title Default Target File)
-    )
-)
--->
+<!-- (dl (section-meta Default Target File)) -->
 
 You can set a default target or output file name (with path) from within the `section-meta` block. This is done with the `target` command.
 

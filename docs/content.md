@@ -1,10 +1,4 @@
-<!--
-(dl
-    (section-meta
-        (title Content Block)
-    )
-)
--->
+<!-- (dl (section-meta Content Block)) -->
 
 The content block signifies where to insert the compiled included documents. This block has only one optional subblock.
 
