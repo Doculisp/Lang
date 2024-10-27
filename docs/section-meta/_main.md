@@ -4,7 +4,6 @@
         (title Section Meta Block)
         (author jason-kerney)
         (include
-            (Section ./target.md)
             (Section ./title.md)
             (Section ./ref-link.md)
             (Section ./subtitle.md)
