@@ -360,6 +360,32 @@ Currently, the maximum heading depth recognized by Markdown is H6. However Docul
 
 The `get` block is an unusual block as its parameter is an id representing dynamic text that will be put into its place.
 
+### The Reference Block ###
+
+The id in the get must be one of the ids given in a reference block. It will be replaced with the relative path to the target file.
+
+### Example ###
+
+```markdown
+<!--
+(dl
+    (section-main
+        (title Some title)
+        (reference
+            (file
+                (id contribLink)
+                (source ./contrib/_main.dlisp)
+                (target ../../contrib.md)
+            )
+        )
+    )
+)
+-->
+
+How to [contribute](<!-- (dl (get contribLink)) -->)
+
+```
+
 ## Comment Block ##
 
 The comment block is the only block that can be present at all levels within the Doculisp Main Block. The comment is created by adding an astrics `*` just after an open parenthisis and end when the block and all its subblocks are closed.
@@ -428,6 +454,7 @@ Here is a list of all the key atoms by depth:
        * `label` label text
        * `style` bullet style
   * `#` text
+  * `get` id
   * `*`
 * `*`
 
