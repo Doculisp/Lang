@@ -8,6 +8,7 @@
             (Section ./ref-link.md)
             (Section ./subtitle.md)
             (Section ./include.md)
+            (Section ./reference.md)
             (Section ./authors.md)
             (Section ./comments.md)
         )
