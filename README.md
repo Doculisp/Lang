@@ -388,7 +388,6 @@ Here is a list of all the key atoms by depth:
     * `include`
       * name path
       * `*`
-    * `target` file name
     * `*`
   * `content`
     * `toc` bullet style
