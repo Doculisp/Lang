@@ -8,6 +8,21 @@ The `file` sub-block contains three sub-blocks. An `id` block, a `source` block,
 
 The `id` block contains the unique name that can be used to insert the output path into this section or its subsections.
 
-The `source` block contains the path of the source files to be compiled.
+The `source` block contains the path of the source files to be compiled. This path is in reference to the current file.
 
-The `target`
+The `target` block indicates the output file and path. This path is in reference to the current file.
+
+<!-- (dl (# Reference Example)) -->
+
+```doculisp
+(section-meta
+    (title References)
+    (reference
+        (file 
+            (id contribDoc)
+            (source ./contrib/_main)
+            (target ../../contrib.md)
+        )
+    )
+)
+```
