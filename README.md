@@ -24,10 +24,11 @@ A language for Readme.
 5. Language: [Section Meta Block](#section-meta-block)
 6. Language: [Content Block](#content-block)
 7. Language: [Dynamic Headings](#dynamic-headings)
-8. Language: [Comment Block](#comment-block)
-9. Language: [Key Atoms by Depth](#key-atoms-by-depth)
-10. Structure: [".dlisp" files](#dlisp-files)
-11. Recognition: [Contributors ✨](#contributors-)
+8. Language: [Get](#get)
+9. Language: [Comment Block](#comment-block)
+10. Language: [Key Atoms by Depth](#key-atoms-by-depth)
+11. Structure: [".dlisp" files](#dlisp-files)
+12. Recognition: [Contributors ✨](#contributors-)
 
 ## Language Version ##
 
@@ -354,6 +355,10 @@ However if this document reprended a subsection directly under the Title, then "
 ### Max Heading Depth ###
 
 Currently, the maximum heading depth recognized by Markdown is H6. However Doculisp will not restrict you to that depth. If the total depth is more then H6 you may get unexpected results.
+
+## Get ##
+
+The `get` block is an unusual block as its parameter is an id representing dynamic text that will be put into its place.
 
 ## Comment Block ##
 
