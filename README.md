@@ -243,8 +243,10 @@ The complex usage of table of contents allows you to specify an optional `label`
 
 ```doculisp
 (content
-    (label Table of Contents)
-    (style numbered)
+    (toc
+        (label Table of Contents)
+        (style numbered)
+    )
 )
 ```
 
