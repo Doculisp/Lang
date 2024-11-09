@@ -11,7 +11,6 @@
             (Language ./section-meta/_main.md)
             (Language ./content.md)
             (Language ./headings.md)
-            (Language ./get.md)
             (Language ./comment.md)
             (Language ./keywords.md)
             (Structure ./dlisp.md)

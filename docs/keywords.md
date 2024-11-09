@@ -12,14 +12,19 @@ Here is a list of all the key atoms by depth:
     * `ref-link` text
       * `*`
     * `include`
-      * name path
+      * name
+      * file path
       * `*`
+    * `reference`
+      * `file`
+        * `id` text
+        * `source` file path
+        * `target` file path
     * `*`
   * `content`
     * `toc` bullet style
        * `label` label text
        * `style` bullet style
   * `#` text
-  * `get` id
   * `*`
 * `*`
