@@ -22,6 +22,10 @@
         {
             "name": "docs",
             "command": "gittey build"
+        },
+        {
+            "name": "clean",
+            "command": "git checkout . && git clean -xfd && gittey build"
         }
     ],
     "collaborators": []
