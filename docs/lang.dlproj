@@ -1,12 +1,12 @@
 (documents
-    (readme
-        (files
+    (document
+        (readme
             (source ./readme/_main.md)
             (output ../README.md)
         )
     )
-    (prj
-        (files
+    (document
+        (prj
             (source ./prj/_main.dlisp)
             (output ../project.md)
         )
