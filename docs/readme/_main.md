@@ -27,5 +27,12 @@ ___  ____ ____ _  _ _    _ ____ ___
 ```
 A language for Readme.
 
-<!-- (dl (# Table of Contents)) -->
-<!-- (dl(content (toc numbered-labeled))) -->
+<!--
+(dl
+    (content
+        (toc
+            (style numbered-labeled)
+            (label Table of Contents)
+        )
+    )
+) -->

@@ -1,0 +1,14 @@
+(documents
+    (readme
+        (files
+            (source ./readme/_main.md)
+            (output ../README.md)
+        )
+    )
+    (prj
+        (files
+            (source ./prj/_main.dlisp)
+            (output ../project.md)
+        )
+    )
+)
