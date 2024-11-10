@@ -3,12 +3,13 @@
     (author jason-kerney)
     (include
         (Section ./intro.md)
+        (Section ./documents/_main.md)
     )
 )
 
 (content
     (toc
         (label Table of Contents)
-        (style numbered-labeled)
+        (style numbered)
     )
 )
