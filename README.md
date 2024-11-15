@@ -31,7 +31,7 @@ A language for Readme.
 
 ## Language Version ##
 
-Doculisp version 0.2.2
+Doculisp version 0.2.3
 
 ## What Problem Does Doculisp Solve? ##
 
