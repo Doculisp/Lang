@@ -1,3 +1,3 @@
 <!-- (dl (section-meta Language Version)) -->
 
-Doculisp version 0.2.2
+Doculisp version 1.0.0

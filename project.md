@@ -66,6 +66,13 @@ If this block is contained within the `document` block then it is the only block
 
 The document identifier block is _**currently is not used.**_ Though it is reserved for future use.
 
+##### Restrictions #####
+
+The document identifier must meet the following restrictions:
+
+* Document identifier must be lowercase.
+* Document identifier must not contain any symbols other then underscore `_` or hyphen `-`.
+
 ##### Document Identifier Example #####
 
 ```doculisp

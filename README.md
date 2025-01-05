@@ -31,7 +31,7 @@ A language for Readme.
 
 ## Language Version ##
 
-Doculisp version 0.2.2
+Doculisp version 1.0.0
 
 ## What Problem Does Doculisp Solve? ##
 
@@ -204,6 +204,33 @@ This will create a subsection called `sub section` that is built using the file 
 ```
 
 This will create a subsection called `section` that is built using the file `./two.md`.
+
+### Section Id ###
+
+Id is an optional block. It allows you to set an id for the section.
+
+**NOT CURRENTLY USED** This is for future use.
+
+#### Restrictions ####
+
+The id block must meet the following restrictions:
+
+* It must be lowercase.
+* It must not contain any symbols other then underscore `_` or hyphen `-`.
+
+#### Example ####
+
+```doculisp
+<!--
+example.md
+(dl
+(section-meta
+    (title An Example of an ID)
+    (id my-id)
+)
+)
+-->
+```
 
 ### Author ###
 
