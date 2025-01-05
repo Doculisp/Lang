@@ -37,6 +37,30 @@ If this example was the top level document, then the title of the document, Head
 
 However if this document represented a subsection directly under the Title, then "Maths an intro" would be Heading 2, "Summary" heading 3, and "Reasons For Document" would be Heading 4.
 
+<!-- (dl (# Ids)) -->
+
+You can add an ID to a heading.
+
+**THIS IS NOT USED YET** and is reserved for future use.
+
+the id follows the hash-mark (`#`).
+
+<!-- (dl (## Restrictions)) -->
+
+The id must meet the following restrictions:
+
+* It must be lowercase.
+* It must not contain any symbols other then underscore `_` or hyphen `-`.
+
+<!-- (dl (## Example)) -->
+
+```doculisp
+<!-- info.md -->
+<!-- (dl (#heading-id Information About Heading Ids)) -->
+
+Some text here.
+```
+
 <!-- (dl (# Max Heading Depth)) -->
 
 Currently, the maximum heading depth recognized by Markdown is H6. However Doculisp will not restrict you to that depth. If the total depth is more then H6 you may get unexpected results.
