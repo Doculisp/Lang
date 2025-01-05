@@ -71,7 +71,7 @@ The document identifier block is _**currently is not used.**_ Though it is reser
 The document identifier must meet the following restrictions:
 
 * Document identifier must be lowercase.
-* Document identifier must contain no symbols.
+* Document identifier must not contain any symbols other then underscore `_` or hyphen `-`.
 
 ##### Document Identifier Example #####
 

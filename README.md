@@ -205,6 +205,33 @@ This will create a subsection called `sub section` that is built using the file 
 
 This will create a subsection called `section` that is built using the file `./two.md`.
 
+### Section Id ###
+
+Id is an optional block. It allows you to set an id for the section.
+
+**NOT CURRENTLY USED** This is for future use.
+
+#### Restrictions ####
+
+The id block must meet the following restrictions:
+
+* It must be lowercase.
+* It must not contain any symbols other then underscore `_` or hyphen `-`.
+
+#### Example ####
+
+```doculisp
+<!--
+example.md
+(dl
+(section-meta
+    (title An Example of an ID)
+    (id my-id)
+)
+)
+-->
+```
+
 ### Author ###
 
 Author is an optional block in the section meta that puts the author's name in the comments at the top and bottom of the document. This block can be included multiple times and each will have a separate comment line.
