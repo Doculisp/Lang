@@ -1,8 +1,8 @@
 <!-- (dl (section-meta Dynamic Headings)) -->
 
-Sometimes you want to create structure aware headings such that only heading of lesser importance are under your title. this is accomplished by the `(#` block, or dynamic headinlg block.
+Sometimes you want to create structure aware headings such that only heading of lesser importance are under your title. this is accomplished by the `(#` block, or dynamic heading block.
 
-The dynamic heading block works differently then other blocks. The number of `#` signs determins how far it is beneith the current sub/section heading.
+The dynamic heading block works differently then other blocks. The number of `#` signs determine how far it is beneath the current sub/section heading.
 
 Example
 
@@ -25,17 +25,17 @@ Example
 
 A cool summary of maths.
 
-<!-- (dl (## Resons For Document)) -->
+<!-- (dl (## Reasons For Document)) -->
 
-An explination why to have the document.
+An explanation why to have the document.
 
 
 <!-- (dl (content (toc unlabled))) -->
 ```
 
-If this example was the top level document, then the title of the document, Heading 1, would be "Maths an intro". "Summray" would then be created as a Heading 2, and  "Resons For Document" as Heading 3.
+If this example was the top level document, then the title of the document, Heading 1, would be "Maths an intro". "Summary" would then be created as a Heading 2, and  "Reasons For Document" as Heading 3.
 
-However if this document reprended a subsection directly under the Title, then "Maths an intro" would be Heading 2, "Summary" heading 3, and "Reasons For Document" would be Heading 4.
+However if this document represented a subsection directly under the Title, then "Maths an intro" would be Heading 2, "Summary" heading 3, and "Reasons For Document" would be Heading 4.
 
 <!-- (dl (# Max Heading Depth)) -->
 
