@@ -40,6 +40,13 @@ If this block is contained within the `document` block then it is the only block
 
 The document identifier block is _**currently is not used.**_ Though it is reserved for future use.
 
+<!-- (dl (## Restrictions)) -->
+
+The document identifier must meet the following restrictions:
+
+* Document identifier must be lowercase.
+* Document identifier must contain no symbols.
+
 <!-- (dl (## Document Identifier Example)) -->
 
 ```doculisp
