@@ -2,6 +2,7 @@
 (dl
     (section-meta
         (title The Documents Block)
+        (id documents)
         (include
             (Subsection ./document.md)
         )

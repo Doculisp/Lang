@@ -1,4 +1,9 @@
-<!-- (dl (section-meta Comment Block)) -->
+<!-- (dl
+(section-meta
+    (title Comment Block)
+    (id comment)
+)
+) -->
 
 The comment block is the only block that can be present at all levels within the Doculisp Main Block. The comment is created by adding an astrics `*` just after an open parenthesis and end when the block and all its subblocks are closed.
 
@@ -40,6 +45,6 @@ Example:
 -->
 ```
 
-<!-- (dl (# Nested Comments)) -->
+<!-- (dl (#comment-nested Nested Comments)) -->
 
 In this example the `section-meta` and all its subblocks are commented out. However when you uncomment `section-meta` then the `include` block will be commented out. When you uncomment that block, then the `section ./comment.md` block will be commented out.

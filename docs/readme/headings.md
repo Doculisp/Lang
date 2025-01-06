@@ -1,4 +1,9 @@
-<!-- (dl (section-meta Dynamic Headings)) -->
+<!-- (dl
+(section-meta
+    (title Dynamic Headings)
+    (id headings)
+)
+) -->
 
 Sometimes you want to create structure aware headings such that only heading of lesser importance are under your title. this is accomplished by the `(#` block, or dynamic heading block.
 
@@ -37,7 +42,7 @@ If this example was the top level document, then the title of the document, Head
 
 However if this document represented a subsection directly under the Title, then "Maths an intro" would be Heading 2, "Summary" heading 3, and "Reasons For Document" would be Heading 4.
 
-<!-- (dl (# Ids)) -->
+<!-- (dl (#head-ids Ids)) -->
 
 You can add an ID to a heading.
 
@@ -45,14 +50,14 @@ You can add an ID to a heading.
 
 the id follows the hash-mark (`#`).
 
-<!-- (dl (## Restrictions)) -->
+<!-- (dl (##head-ids-restrictions Restrictions)) -->
 
 The id must meet the following restrictions:
 
 * It must be lowercase.
 * It must not contain any symbols other then underscore `_` or hyphen `-`.
 
-<!-- (dl (## Example)) -->
+<!-- (dl (##head-ids-example Example)) -->
 
 ```doculisp
 <!-- info.md -->
@@ -61,6 +66,6 @@ The id must meet the following restrictions:
 Some text here.
 ```
 
-<!-- (dl (# Max Heading Depth)) -->
+<!-- (dl (#head-max Max Heading Depth)) -->
 
 Currently, the maximum heading depth recognized by Markdown is H6. However Doculisp will not restrict you to that depth. If the total depth is more then H6 you may get unexpected results.

@@ -1,4 +1,9 @@
-<!-- (dl (section-meta Doculisp Master Block)) -->
+<!-- (dl
+(section-meta
+    (title Doculisp Master Block)
+    (id master)
+)
+) -->
 
 All doculisp is contained in an outer doculisp block. That block starts with `(dl` followed by a white space. This doculisp block must be contained in an html comment.
 
