@@ -5,7 +5,7 @@
 <!-- Compiled with doculisp https://www.npmjs.com/package/doculisp -->
 <!-- Written By: jason-kerney -->
 
-# Doculisp #
+# Doculisp Language #
 
 ```
 ___  ____ ____ _  _ _    _ ____ ___

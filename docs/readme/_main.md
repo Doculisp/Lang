@@ -1,7 +1,7 @@
 <!--
 (dl
     (section-meta
-        (title Doculisp)
+        (title Doculisp Language)
         (author jason-kerney)
         (include
             (Version ./version.md)
