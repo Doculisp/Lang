@@ -44,11 +44,9 @@ However if this document represented a subsection directly under the Title, then
 
 <!-- (dl (#head-ids Ids)) -->
 
-You can add an ID to a heading.
+You can add an ID to a heading. These ids can be used to create dynamic linking to the header from this document or other compiled documents. [Example how to do that here.](<!-- (dl (get-path doc-link)) -->)
 
-**THIS IS NOT USED YET** and is reserved for future use.
-
-the id follows the hash-mark (`#`).
+The id follows the hash-mark (`#`).
 
 <!-- (dl (##head-ids-restrictions Restrictions)) -->
 

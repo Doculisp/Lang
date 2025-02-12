@@ -64,7 +64,7 @@ The document identifier block is a very different kind of block. It is an option
 
 If this block is contained within the `document` block then it is the only block that is a child of the `documents` block.
 
-The document identifier block is _**currently is not used.**_ Though it is reserved for future use.
+The document identifier block is used to create a dynamic link to the document from other any compiled document.
 
 ##### Restrictions #####
 

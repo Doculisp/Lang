@@ -2,7 +2,7 @@
 
 Id is an optional block. It allows you to set an id for the section.
 
-**NOT CURRENTLY USED** This is for future use.
+These ids can be used to create dynamic links to the section from within the document or from other compiled documents. [Example how to do that here.](<!-- (dl (get-path doc-link)) -->)
 
 <!-- (dl (# Restrictions)) -->
 

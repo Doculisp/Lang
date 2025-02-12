@@ -13,6 +13,7 @@
             (Language ./headings.md)
             (Language ./comment.md)
             (Language ./keywords.md)
+            (Language ./documentLinking.md)
             (Structure ./dlisp.md)
             (Recognition ./contributors.md)
         )
