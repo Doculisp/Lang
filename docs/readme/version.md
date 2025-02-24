@@ -5,4 +5,4 @@
 )
 ) -->
 
-Doculisp version 1.2.0
+Doculisp version 1.2.1
