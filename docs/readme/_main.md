@@ -13,10 +13,12 @@
             (Language ./headings.md)
             (Language ./comment.md)
             (Language ./keywords.md)
+            (Language ./ids/_main.dlisp)
             (Language ./documentLinking.md)
             (Structure ./dlisp.md)
             (Recognition ./contributors.md)
         )
+        (id lang-main)
     )
 )
 -->

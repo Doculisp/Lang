@@ -8,10 +8,11 @@
             (Section ./ref-link.md)
             (Section ./subtitle.md)
             (Section ./include.md)
-            (Section ./id.md)
+            (*Section ./id.md)
             (Section ./authors.md)
             (Section ./comments.md)
         )
+        (id section-meta)
     )
 )
 -->

@@ -1,0 +1,11 @@
+(section-meta
+    (title Path Ids)
+    (include
+        (Section .\about.md)
+        (Section .\section-meta.md)
+        (Section .\headings.md)
+        (Section .\restrictions.md)
+    )
+)
+
+(content)
