@@ -5,7 +5,7 @@
 )
 ) -->
 
-Doculisp is designed to solve one problem, making readme files easier to edit and maintain. With Doculisp you can break each read me into multiple smaller files. Every time you have a header or subheader that could be a new file. This allows for the task of documentation to be managed in parts. When a part of the documentation needs to be edited, you can open the file that pertains to that part, and only that part. There is a secondary advantage to this. Whe a change to the documentation happens, you can see what that change effected without looking at file diffs just by examining the files that changed.
+Doculisp is designed to solve one problem, making readme files easier to edit and maintain. With Doculisp you can break each read me into multiple smaller files. Every time you have a header or subheader that could be a new file. This allows for the task of documentation to be managed in parts. When a part of the documentation needs to be edited, you can open the file that pertains to that part, and only that part. There is a secondary advantage to this. When a change to the documentation happens, you can see what that change effected without looking at file diffs just by examining the files that changed.
 
 <!-- (dl (#advice A Word of Advice)) -->
 

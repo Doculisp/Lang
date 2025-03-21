@@ -17,10 +17,10 @@ Example
     (section-meta
         (title Maths an intro)
         (include
-            (section ./add.md)
-            (section ./subtract.md)
-            (section ./muliply.md)
-            (section ./divide.md)
+            (Section ./add.md)
+            (Section ./subtract.md)
+            (Section ./muliply.md)
+            (Section ./divide.md)
         )
     )
 )

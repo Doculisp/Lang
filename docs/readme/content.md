@@ -5,11 +5,11 @@
 )
 ) -->
 
-The content block signifies where to insert the compiled included documents. This block has only one optional subblock.
+The content block signifies where to insert the compiled included documents. This block has only one optional sub-block.
 
 <!-- (dl (#toc Table of Contents)) -->
 
-The only subblock to the content block is the table of contents. This will cause a linked table of contents to appear for the section at its location.
+The only sub-block to the content block is the table of contents. This will cause a linked table of contents to appear for the section at its location.
 
 <!-- (dl (##toc-basic Simple Usage)) -->
 

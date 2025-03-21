@@ -27,11 +27,40 @@ The first block is the `dl` block. In it `dl` is the atom. It contains the `sect
 
 A parameter is a string of characters that contains no line advancement (`\r` or `\n`) character and no parentheses (unless escaped). A parameter has a max length of 255 characters.
 
-<!-- (dl (#struct-explain Visual Explanation)) -->
+Example:
+
+```doculisp
+(atom parameter)
+```
+
+To include parentheses within a parameter, escape them with a backslash:
+
+```doculisp
+(atom parameter\))
+```
+
+<!-- (dl (#struct-visual More Visual Explanations)) -->
 
 ```doculisp
 (atom)
 (atom parameter)
 (atom (atom2))
 (atom (atom2 second parameter))
+```
+
+```mermaid
+graph TD
+    subgraph Basic Atom
+        A(atom)
+    end
+    subgraph Atom with Parameter
+        B(atom) -->|parameter| C
+    end
+    subgraph Atom contains Atom
+        D(atom) --> E(atom2)
+    end
+    subgraph Nested
+        F(atom) --> G(atom2)
+        G -->H(Parameter)
+    end
 ```

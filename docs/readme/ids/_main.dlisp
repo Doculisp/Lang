@@ -6,6 +6,7 @@
         (Section .\headings.md)
         (Section .\restrictions.md)
     )
+    (id path-ids)
 )
 
 (content)

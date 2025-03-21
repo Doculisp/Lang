@@ -15,7 +15,7 @@ Example
     (section-meta
         (title Doculisp)
         (include
-            (section ./doculisp.md)
+            (Section ./doculisp.md)
         )
     )
 
