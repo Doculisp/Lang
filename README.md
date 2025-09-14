@@ -166,7 +166,7 @@ The `section-meta` block is a crucial part of the Doculisp DSL. It provides meta
 
 ### Section-Meta Examples ###
 
-#### Title Example ####
+##### Title Example #####
 
 ```doculisp
 (section-meta
@@ -174,7 +174,7 @@ The `section-meta` block is a crucial part of the Doculisp DSL. It provides meta
 )
 ```
 
-#### Ref-Link Example ####
+##### Ref-Link Example #####
 
 ```doculisp
 (section-meta
@@ -183,7 +183,7 @@ The `section-meta` block is a crucial part of the Doculisp DSL. It provides meta
 )
 ```
 
-### Subtitle Example ###
+##### Subtitle Example #####
 
 ```doculisp
 (section-meta
@@ -192,7 +192,7 @@ The `section-meta` block is a crucial part of the Doculisp DSL. It provides meta
 )
 ```
 
-### Author Example ###
+##### Author Example #####
 
 ```doculisp
 (section-meta
@@ -202,7 +202,7 @@ The `section-meta` block is a crucial part of the Doculisp DSL. It provides meta
 )
 ```
 
-### Include Example ###
+##### Include Example #####
 
 ```doculisp
 (section-meta
@@ -219,14 +219,14 @@ The `section-meta` block is a crucial part of the Doculisp DSL. It provides meta
 )
 ```
 
-### ID Example ###
+##### ID Example #####
 
 (section-meta
     (title Doculisp: A Short Description)
     (id doculisp-short-description)
 )
 
-### Comment Example ###
+##### Comment Example #####
 
 ```doculisp
 (*section-meta
@@ -306,7 +306,7 @@ This will create a subsection called `Sub Section` that is built using the file 
 
 This will create a subsection called `Section` that is built using the file `./two.md`.
 
-### Section-Meta Summary ###
+### Summary ###
 
 The section-meta block is essential for organizing and structuring documentation in Doculisp. It allows you to define the title, author, included files, and a unique identifier for each section, making it easier to manage and update documentation.
 
