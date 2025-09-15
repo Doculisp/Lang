@@ -17,23 +17,19 @@ A language for Readme.
 
 ## Table of Contents ##
 
-1. Version: [Language Version](#language-version)
-2. Intro: [Why Doculisp?](#why-doculisp)
-3. Language: [Basic Structure](#basic-structure)
-4. Language: [Doculisp Master Block](#doculisp-master-block)
-5. Language: [Section Meta Block](#section-meta-block)
-6. Language: [Content Block](#content-block)
-7. Language: [Dynamic Headings](#dynamic-headings)
-8. Language: [Comment Block](#comment-block)
-9. Language: [Key Atoms by Depth](#key-atoms-by-depth)
-10. Language: [Path Ids](#path-ids)
-11. Language: [Dynamic Document Linking](#dynamic-document-linking)
-12. Structure: [".dlisp" files](#dlisp-files)
+1. Intro: [Why Doculisp?](#why-doculisp)
+2. Language: [Basic Structure](#basic-structure)
+3. Language: [Doculisp Master Block](#doculisp-master-block)
+4. Language: [Section Meta Block](#section-meta-block)
+5. Language: [Content Block](#content-block)
+6. Language: [Dynamic Headings](#dynamic-headings)
+7. Language: [Comment Block](#comment-block)
+8. Language: [Path Ids](#path-ids)
+9. Language: [Dynamic Document Linking](#dynamic-document-linking)
+10. Language: [Key Atoms by Depth](#key-atoms-by-depth)
+11. Structure: [".dlisp" files](#dlisp-files)
+12. Version: [Language Version](#language-version)
 13. Recognition: [Contributors ✨](#contributors-)
-
-## Language Version ##
-
-Doculisp version 1.2.1
 
 ## Why Doculisp? ##
 
@@ -542,37 +538,6 @@ Example:
 
 In this example the `section-meta` and all its sub-blocks are commented out. However when you uncomment `section-meta` then the `include` block will be commented out. When you uncomment that block, then the `section ./comment.md` block will be commented out.
 
-## Key Atoms by Depth ##
-
-Here is a list of all the key atoms by depth:
-
-* markdown
-* `dl`
-  * `section-meta`
-    * `title` text
-      * `*`
-    * `subtitle` text
-      * `*`
-    * `ref-link` text
-      * `*`
-    * `include`
-      * name
-      * file path
-      * `*`
-    * `reference`
-      * `file`
-        * `id` text
-        * `source` file path
-        * `target` file path
-    * `*`
-  * `content`
-    * `toc` bullet style
-       * `label` label text
-       * `style` bullet style
-  * `#` text
-  * `*`
-* `*`
-
 ## Path Ids ##
 
 ### What are Path Ids? ###
@@ -642,6 +607,37 @@ This will return the path needed to get to the document / header combination. Th
 
 In the above example you will have link to correct document and the correct heading.
 
+## Key Atoms by Depth ##
+
+Here is a list of all the key atoms by depth:
+
+* markdown
+* `dl`
+  * `section-meta`
+    * `title` text
+      * `*`
+    * `subtitle` text
+      * `*`
+    * `ref-link` text
+      * `*`
+    * `include`
+      * name
+      * file path
+      * `*`
+    * `reference`
+      * `file`
+        * `id` text
+        * `source` file path
+        * `target` file path
+    * `*`
+  * `content`
+    * `toc` bullet style
+       * `label` label text
+       * `style` bullet style
+  * `#` text
+  * `*`
+* `*`
+
 ## ".dlisp" files ##
 
 If you have a file that contains only Doculisp code blocks without any markdown you can simplify that file. By changing the extension from `.md` to `.dlisp` you can remove the html comments and the opening `(dl` to contain raw Doculisp code.
@@ -685,6 +681,10 @@ Can be simplified to:
 
 (content (toc))
 ```
+
+## Language Version ##
+
+Doculisp version 1.2.1
 
 ## Contributors ✨ ##
 
