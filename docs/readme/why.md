@@ -1,7 +1,6 @@
 <!-- (dl
 (section-meta
     (title Why Doculisp?)
-    (id why)
 )
 ) -->
 
@@ -58,7 +57,7 @@ Every section and header can have a unique ID that enables dynamic linking withi
 **Manual file splitting**: No standard structure, inconsistent organization, manual assembly required.
 **Doculisp advantage**: Structured metadata system, automated assembly, consistent patterns across projects.
 
-<!-- (dl (#advice Getting Started: A Practical Approach)) -->
+<!-- (dl (# Getting Started: A Practical Approach)) -->
 
 <!-- (dl (## Start Simple, Grow Naturally)) -->
 
