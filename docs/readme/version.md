@@ -1,6 +1,6 @@
 <!-- (dl
 (section-meta
-    (title Language Version)
+    (title Language Specification Version)
     (id lan-version)
 )
 ) -->

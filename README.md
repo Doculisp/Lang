@@ -18,7 +18,7 @@ A language for Readme.
 ## Table of Contents ##
 
 1. Intro: [Why Doculisp?](#why-doculisp)
-2. Language: [Basic Structure](#basic-structure)
+2. Language: [Syntax Overview](#syntax-overview)
 3. Language: [Doculisp Master Block](#doculisp-master-block)
 4. Language: [Section Meta Block](#section-meta-block)
 5. Language: [Content Block](#content-block)
@@ -27,8 +27,8 @@ A language for Readme.
 8. Language: [Path Ids](#path-ids)
 9. Language: [Dynamic Document Linking](#dynamic-document-linking)
 10. Language: [Key Atoms by Depth](#key-atoms-by-depth)
-11. Structure: [".dlisp" files](#dlisp-files)
-12. Version: [Language Version](#language-version)
+11. Structure: [Native Doculisp Files](#native-doculisp-files)
+12. Version: [Language Specification Version](#language-specification-version)
 13. Recognition: [Contributors ✨](#contributors-)
 
 ## Why Doculisp? ##
@@ -118,7 +118,7 @@ Every section and header can have a unique ID that enables dynamic linking withi
 
 **Pro tip**: The goal is easier maintenance, not complexity. If splitting a small section into its own file makes editing *harder*, don't do it.
 
-## Basic Structure ##
+## Syntax Overview ##
 
 The basic structure of Doculisp is all code is contained within blocks. A block is constructed within an HTML comment region. It starts with an open parentheses `(` followed by a sting of non-whitespace characters. This is called an atom. It then has 1 of three possibilities. It can have a parameter, a new block, or nothing. All blocks must close with a close parentheses `)`.
 
@@ -638,7 +638,7 @@ Here is a list of all the key atoms by depth:
   * `*`
 * `*`
 
-## ".dlisp" files ##
+## Native Doculisp Files ##
 
 If you have a file that contains only Doculisp code blocks without any markdown you can simplify that file. By changing the extension from `.md` to `.dlisp` you can remove the html comments and the opening `(dl` to contain raw Doculisp code.
 
@@ -682,7 +682,7 @@ Can be simplified to:
 (content (toc))
 ```
 
-## Language Version ##
+## Language Specification Version ##
 
 Doculisp version 1.2.1
 

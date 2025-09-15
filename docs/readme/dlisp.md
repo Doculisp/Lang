@@ -1,6 +1,6 @@
 <!-- (dl
 (section-meta
-    (title ".dlisp" files)
+    (title Native Doculisp Files)
     (id dlisp)
 )
 ) -->

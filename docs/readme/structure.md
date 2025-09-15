@@ -1,6 +1,6 @@
 <!-- (dl
 (section-meta
-    (title Basic Structure)
+    (title Syntax Overview)
     (id structure)
 )
 ) -->
