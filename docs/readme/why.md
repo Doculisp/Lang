@@ -34,6 +34,12 @@ The `section-meta` blocks enforce consistent organization across all your docume
 <!-- (dl (## ⚡ **Maintainability**)) -->
 Small, focused files are easier to review, update, and refactor. When documentation grows, you can easily reorganize by moving files rather than cut-and-paste operations in large documents.
 
+<!-- (dl (## 🔄 **Effortless Restructuring**)) -->
+Need to promote a section to its own document? Simply move the file and update the `include` block. What starts as a subsection can easily become a standalone document with its own table of contents and structure. No copy-paste, no broken links, no manual reorganization - just move files and update references.
+
+<!-- (dl (## 🔗 **Resilient Cross-References**)) -->
+Every section and header can have a unique ID that enables dynamic linking within and across documents. Reference other sections with `(get-path id)` and Doculisp automatically generates the correct links. Best of all: when you restructure documentation and promote sections to standalone documents, as long as the IDs remain the same, all existing links continue to work seamlessly.
+
 <!-- (dl (# Why Doculisp Over Other Options?)) -->
 
 <!-- (dl (## vs. Traditional Markdown)) -->
