@@ -106,6 +106,17 @@ The `section-meta` block defines document structure and metadata:
 )
 ```
 
+**Format Preference:** When `section-meta` only contains a title, favor the shorter single-line format:
+```doculisp
+(section-meta Title)
+```
+Rather than the expanded format:
+```doculisp
+(section-meta
+    (title Title)
+)
+```
+
 **Key components:**
 - `title`: **Required** - Main document title
 - `subtitle`: Optional - Creates H3 under title
@@ -409,9 +420,7 @@ doculisp project.dlproj --test          # Test entire project
 
 **Basic document:**
 ```doculisp
-(section-meta
-    (title Document Title)
-)
+(section-meta Document Title)
 ```
 
 **With includes:**
