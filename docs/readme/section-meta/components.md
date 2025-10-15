@@ -28,4 +28,4 @@
     * The `id` block provides a unique identifier for the section, facilitating easy linking and navigation. See [get-path](<!-- (dl (get-path doc-link)) -->) for more details.
 7. Comment (*):
     * Optional
-    * The comment block breaks the rule slightly. The asterisk character is a special character that causes all atoms that start with it to be treated as a comment, and all parameters and sub-blocks to be ignored.
+    * The comment block breaks the rule slightly. The asterisk character is a special character that causes all identifiers that start with it to be treated as a comment, and all parameters and sub-blocks to be ignored.
